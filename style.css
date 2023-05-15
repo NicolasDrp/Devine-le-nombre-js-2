@@ -1,0 +1,48 @@
+body{
+    background: #adc7aa;
+}
+
+#parent {
+    margin: 30vh;
+    text-align: center;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+
+#nombre{
+    width: 96%;
+    margin-bottom: 1rem;
+}
+
+button{
+font-weight: 100;
+font-size: 17px;
+color : #fff;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 10px 30px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+border-radius: 50px;
+transition : 1426ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+
+}
+
+button:hover{
+transition : 1426ms;
+padding: 10px 39px;
+transform : translateY(-1px);
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+color: #0066cc;
+border: solid 0px #0066cc;
+}
+
